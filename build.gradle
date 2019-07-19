@@ -23,6 +23,8 @@ dependencies {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 		exclude group: 'junit', module: 'junit'
 	}
+	compile 'org.hibernate:hibernate-core'
+	compile 'org.slf4j:slf4j-simple'
 }
 
 test {
